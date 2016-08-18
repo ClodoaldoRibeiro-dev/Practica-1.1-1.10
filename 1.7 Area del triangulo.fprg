@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:31:39 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAwOToyMzowNCBwLiBtLjsgMjQzNA=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjozMTozOSBwLiBtLjsgMjQzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa para calcular el area del triangulo&#13;&#10;&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <declare name="a" type="Real" array="False" size="" variables="a"/>
+            <declare name="b" type="Real" array="False" size="" variables="b"/>
+            <declare name="c" type="Real" array="False" size="" variables="c"/>
+            <declare name="s" type="Real" array="False" size="" variables="s"/>
+            <declare name="area" type="Real" array="False" size="" variables="area"/>
+            <output expression="&quot;Introduzca los valores de los tres lados&quot;"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="s" expression="(a+b+c)/2"/>
+            <if expression="(s*(s-a)*(s-b)*(s-c))&gt;0">
+                <then>
+                    <assign variable="area" expression="sqrt(s*(s-a)*(s-b)*(s-c))"/>
+                    <output expression="&quot;El area es&quot;"/>
+                    <output expression="area"/>
+                </then>
+                <else>
+                    <output expression="&quot;No son lados validos&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

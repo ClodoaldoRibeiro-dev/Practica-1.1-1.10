@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:24:27 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAwOTowNDowOSBwLiBtLjsgMjQzOA=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjoyNDoyNyBwLiBtLjsgMjQzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa para determinar el area de un circulo&#13;&#10;&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <declare name="area" type="Real" array="False" size="" variables="area"/>
+            <declare name="radio" type="Real" array="False" size="" variables="radio"/>
+            <output expression="&quot;Introduzca el diametro&quot;"/>
+            <declare name="d" type="Real" array="False" size="" variables="d"/>
+            <input variable="d"/>
+            <assign variable="radio" expression="d/2"/>
+            <assign variable="area" expression="pi*(radio^2)"/>
+            <output expression="&quot;El area es:&quot;"/>
+            <output expression="area"/>
+        </body>
+    </function>
+</flowgorithm>

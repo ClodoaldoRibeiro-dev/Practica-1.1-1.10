@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:24:01 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAxMjoyMjowNSBwLiBtLjsgMjQyOA=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjoyNDowMSBwLiBtLjsgMjQyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <comment text="Programa para determinar si tienes edad para votar&#13;&#10;&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <input variable="a"/>
+            <if expression="a&gt;=18">
+                <then>
+                    <output expression="&quot;Si tienes edad para votar&quot;"/>
+                </then>
+                <else>
+                    <output expression="&quot;Aun no tienes edad para votar&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:28:25 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAwOTozMToyOCBwLiBtLjsgMjQzOQ=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjoyODoyNSBwLiBtLjsgMjQzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa para calcular la hipotenusa de un triangulo&#13;&#10;&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <declare name="cat1" type="Real" array="False" size="" variables="cat1"/>
+            <declare name="cat2" type="Real" array="False" size="" variables="cat2"/>
+            <declare name="hip" type="Real" array="False" size="" variables="hip"/>
+            <output expression="&quot;Introduzca el valor de los dos catetos&quot;"/>
+            <input variable="cat1"/>
+            <input variable="cat2"/>
+            <assign variable="hip" expression="sqrt(cat1^2*cat2^2)"/>
+            <output expression="&quot;El valor de la hipotenusa es&quot;"/>
+            <output expression="hip"/>
+        </body>
+    </function>
+</flowgorithm>

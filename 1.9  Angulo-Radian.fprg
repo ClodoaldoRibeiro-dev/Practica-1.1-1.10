@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:33:06 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAwOTo0MTo1OSBwLiBtLjsgMjQ0NA=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjozMzowNiBwLiBtLjsgMjQzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa para convertir angulos a radianes&#13;&#10;&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <declare name="angulo" type="Real" array="False" size="" variables="angulo"/>
+            <declare name="radian" type="Real" array="False" size="" variables="radian"/>
+            <assign variable="radian" expression="0"/>
+            <output expression="&quot;Introduzca el valor a convertir&quot;"/>
+            <input variable="angulo"/>
+            <if expression="angulo==0">
+                <then>
+                    <output expression="&quot;No es un numero valido&quot;"/>
+                </then>
+                <else>
+                    <assign variable="radian" expression="(pi*angulo)/180"/>
+                    <output expression="&quot;El valor es igual a&quot;"/>
+                    <output expression="radian"/>
+                    <output expression="&quot;radianes&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

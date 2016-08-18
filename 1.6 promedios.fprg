@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:26:15 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAwOToxNjowOSBwLiBtLjsgMjQ0MQ=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjoyNjoxNSBwLiBtLjsgMjQzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa para promediar 5 numeros&#13;&#10;&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <declare name="a1" type="Real" array="False" size="" variables="a1"/>
+            <declare name="a2" type="Real" array="False" size="" variables="a2"/>
+            <declare name="a3" type="Real" array="False" size="" variables="a3"/>
+            <declare name="a4" type="Real" array="False" size="" variables="a4"/>
+            <declare name="a5" type="Real" array="False" size="" variables="a5"/>
+            <declare name="sum" type="Real" array="False" size="" variables="sum"/>
+            <declare name="prom" type="Real" array="False" size="" variables="prom"/>
+            <output expression="&quot;Introduzca los 5 numeros a promediar&quot;"/>
+            <input variable="a1"/>
+            <input variable="a2"/>
+            <input variable="a3"/>
+            <input variable="a4"/>
+            <input variable="a5"/>
+            <assign variable="sum" expression="a1+a2+a3+a4+a5"/>
+            <assign variable="prom" expression="sum/5"/>
+            <output expression="&quot;El promedio es&quot;"/>
+            <output expression="prom"/>
+        </body>
+    </function>
+</flowgorithm>

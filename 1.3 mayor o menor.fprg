@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:21:30 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAxMTo0ODo1NyBhLiBtLjsgMjQyNw=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjoyMTozMCBwLiBtLjsgMjQyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa para determinar el numero mayor&#13;&#10;&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <output expression="&quot;Dame un numero&quot;"/>
+            <input variable="a"/>
+            <output expression="&quot;Dame otro numero&quot;"/>
+            <input variable="b"/>
+            <if expression="a==b">
+                <then>
+                    <output expression="&quot;Son iguales&quot;"/>
+                </then>
+                <else>
+                    <if expression="b&gt;a">
+                        <then>
+                            <output expression="b"/>
+                            <output expression="&quot;Es mayor&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Es mayor&quot;"/>
+                            <output expression="a"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

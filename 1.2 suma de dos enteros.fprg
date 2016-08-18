@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Elink"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2016-08-17 12:20:35 p. m."/>
+        <attribute name="created" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE1OyAxMToyNzo0OSBhLiBtLjsgMjQyNQ=="/>
+        <attribute name="edited" value="RWxpbms7IEVMSUFTOyAyMDE2LTA4LTE3OyAxMjoyMDozNSBwLiBtLjsgMjQzMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Programa para sumar 2 enteros&#13;&#10;Elias Edgardo Segundo Antonio &#13;&#10;ICO 21 2016B "/>
+            <declare name="a" type="Integer" array="False" size="" variables="a"/>
+            <declare name="b" type="Integer" array="False" size="" variables="b"/>
+            <declare name="k" type="Integer" array="False" size="" variables="k"/>
+            <output expression="&quot;Introduzca el primer entero&quot;"/>
+            <input variable="a"/>
+            <output expression="&quot;Introduzca introduzca el segundo entero&quot;"/>
+            <input variable="b"/>
+            <assign variable="k" expression="a+b"/>
+            <output expression="&quot;La suma es&quot;"/>
+            <output expression="k"/>
+        </body>
+    </function>
+</flowgorithm>
